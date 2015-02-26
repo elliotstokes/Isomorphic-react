@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify -t reactify react/* > app.js"
+    "build": "browserify -t reactify static/app.js  > app.js"
   },
   "author": "Elliot Stokes",
   "license": "ISC",
